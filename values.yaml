@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: yourrepo/foundry
+  repository: docker.io/petermatra/foundryvtt9
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.8.9"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
