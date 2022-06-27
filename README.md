@@ -5,7 +5,7 @@ helm template for foundryvtt
 use image from docker.io/petermatra/foundryvtt89  TAG: latest
 also there is docker.io/petermatra/foundryvtt9 TAG: latest that is not always kept up to date.
 
-registry.gitlab.com/nypedro/foundryvttver9 TAG: main  THIS is my CI/CD pipeline that is mostly kept up to date
+https://gitlab.petermatra.design/gitlab-instance-5e679b60/foundryvtt9-docker TAG: main  THIS is my CI/CD pipeline that is mostly kept up to date
 
 a Peristant Volume Claim called 'foundry-data-pvc' must be created first for this to work with a host path of /foundry_data
 
